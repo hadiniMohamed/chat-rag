@@ -1,0 +1,36 @@
+@import "@vaadin/react-components/css/Lumo.css";
+@import "@vaadin/react-components/css/lumo/Utility.module.css";
+@import "@vaadin/react-components/css/lumo/Typography.css";
+
+.sidebar {
+    width: 300px;
+    transition: width 0.3s;
+    height: 100vh;
+}
+
+.sidebar.closed {
+    width: 0;
+    overflow: hidden;
+}
+
+.btn-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chat-form {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+textarea.form-control {
+    resize: none;
+}
